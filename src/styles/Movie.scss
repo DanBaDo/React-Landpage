@@ -27,6 +27,9 @@
     font-weight: bold;
     color: white;
     margin: 4px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .movie .year {
