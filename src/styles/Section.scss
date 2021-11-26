@@ -1,10 +1,10 @@
-.topBar {
+.sectionComponent > .topBar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.movies > * {
+.sectionComponent > .items > * {
     display: inline-block;
 }
