@@ -77,7 +77,7 @@ const Home = () => {
 					title="Probando una sección"
 					showedNum={6}
 					totalNum={214}
-					movies={movieComponets}></Section>
+					itemsToShow={movieComponets}></Section>
 				<hr />
 			</div>
 		</div>
