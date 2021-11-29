@@ -6,6 +6,8 @@ import Movie from "./Movie.jsx";
 import Section from "./Section.jsx";
 import NavTab from "./Nav.jsx";
 import Welcome from "./Welcome.jsx";
+import Banner from "./banner.jsx";
+import Top from "./top.jsx";
 //Resources
 import image from "../../img/rigo-baby.jpg";
 
@@ -81,6 +83,8 @@ const Home = () => {
 						title="Probando una sección"
 						movies={movieComponets}></Section>
 					<hr />
+					<Banner></Banner>
+					<Top></Top>
 				</div>
 			</div>
 		</>
