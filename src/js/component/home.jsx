@@ -4,7 +4,8 @@ import React from "react";
 import Title from "./Title.jsx";
 import Movie from "./Movie.jsx";
 import Section from "./Section.jsx";
-
+import NavTab from "./Nav.jsx";
+import Welcome from "./Welcome.jsx";
 //Resources
 import image from "../../img/rigo-baby.jpg";
 
@@ -66,19 +67,23 @@ const movieComponets = movies.map((obj, idx) => (
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center mt-5">
-			<div className="tests">
-				<h1>Component tests</h1>
-				<p>Title component:</p>
-				<Title title="Test"></Title>
-				<hr />
-				<p>Section test</p>
-				<Section
-					title="Probando una sección"
-					movies={movieComponets}></Section>
-				<hr />
+		<>
+			<NavTab></NavTab>
+			<Welcome></Welcome>
+			<div className="text-center mt-5">
+				<div className="tests">
+					<h1>Component tests</h1>
+					<p>Title component:</p>
+					<Title title="Test"></Title>
+					<hr />
+					<p>Section test</p>
+					<Section
+						title="Probando una sección"
+						movies={movieComponets}></Section>
+					<hr />
+				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
