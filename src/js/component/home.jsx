@@ -81,12 +81,13 @@ const Home = () => {
 					<p>Section test</p>
 					<Section
 						title="Probando una sección"
-						movies={movieComponets}></Section>
+						showedNum={6}
+						totalNum={358}
+						itemsToShow={movieComponets}></Section>
 					<hr />
 					<Banner></Banner>
 					<Top></Top>
 				</div>
-
 			</div>
 		</>
 	);
