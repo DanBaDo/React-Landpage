@@ -75,6 +75,8 @@ const Home = () => {
 				<p>Section test</p>
 				<Section
 					title="Probando una sección"
+					showedNum={6}
+					totalNum={214}
 					movies={movieComponets}></Section>
 				<hr />
 			</div>
