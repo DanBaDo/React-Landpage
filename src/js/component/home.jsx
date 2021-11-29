@@ -86,6 +86,7 @@ const Home = () => {
 					<Banner></Banner>
 					<Top></Top>
 				</div>
+
 			</div>
 		</>
 	);
