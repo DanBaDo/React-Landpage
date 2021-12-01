@@ -1,0 +1,15 @@
+.banner, .banner div {
+    background-color: unset;
+    border: none;
+    padding: 0px;
+}
+
+.banner > .card {
+    padding: 0px 4px;
+}
+
+.banner h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
