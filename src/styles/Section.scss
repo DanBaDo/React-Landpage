@@ -1,8 +1,16 @@
+.sectionComponent {
+    padding: 0px;
+}
+
 .sectionComponent > .topBar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.sectionComponent > .items {
+    padding: 0px;
 }
 
 .sectionComponent > .items > * {
