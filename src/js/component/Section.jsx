@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 // Components
 import Title from "./Title.jsx";
 import ViewAllBtn from "./ViewAllBtn.jsx";
-import Movie from "./Movie.jsx";
 
 // Resources
 import "../../styles/Section.scss";
