@@ -1,0 +1,39 @@
+.movie, .movie * {
+    background-color: unset;
+    border: none;
+    font-size: small;
+    text-align: left;
+    padding: 0px;
+}
+
+.movie {
+    padding: 8px;
+}
+
+.imgWrapper {
+    position: relative;
+}
+
+.rating {
+    background-color: rgba(0,0,0,0.6);
+    margin: 0px;
+    padding: 3px 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+    margin: 4px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie .year {
+    color: #606060;
+    margin-bottom: 4px;
+}
+
