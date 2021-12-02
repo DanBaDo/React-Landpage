@@ -1,0 +1,20 @@
+.topComponent {
+    padding: 0px;
+    display: inline;
+}
+
+.topComponent > .topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.topComponent > .items {
+    padding: 0px;
+}
+
+.topComponent > .items > * {
+    display: flex;
+    flex-direction: column;
+}

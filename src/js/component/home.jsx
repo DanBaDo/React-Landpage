@@ -1,18 +1,16 @@
 import React from "react";
 
 //Components
-import Title from "./Title.jsx";
 import Movie from "./Movie.jsx";
 import Section from "./Section.jsx";
 import NavTab from "./Nav.jsx";
 import Welcome from "./Welcome.jsx";
 import Banner from "./banner.jsx";
-import Top from "./top.jsx";
-
-// Finding component? Go to #173 👇
 
 //Resources
 import "../../styles/home.scss";
+
+// Searching for component? Go to #207 👇
 
 // Mockup data
 
@@ -163,6 +161,8 @@ const moviesOnline = [
 	}
 ];
 
+// Components arrays for props
+
 const movieHDComponets = moviesHD.map((obj, idx) => (
 	<Movie
 		key={idx}
@@ -237,8 +237,6 @@ const Home = () => {
 						totalNum={112}
 						itemsToShow={movieHDComponets}
 					/>
-
-					<Top />
 				</div>
 			</div>
 		</div>
